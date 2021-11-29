@@ -28,8 +28,7 @@
   },
   "homepage": "https://github.com/ragil000/middleware-formidable#readme",
   "dependencies": {
-    "formidable": "^2.0.1",
-    "express": "^4.17.1"
+    "formidable": "^2.0.1"
   },
   "devDependencies": {
     "eslint": "^8.3.0",
