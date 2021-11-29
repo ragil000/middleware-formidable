@@ -1,6 +1,6 @@
 # express-formidable [![Build Status](https://travis-ci.org/utatti/express-formidable.svg?branch=master)](https://travis-ci.org/utatti/express-formidable)
 
-An [Express](http://expressjs.com) middleware of
+This is Folk of [express-formidable](https://github.com/hatashiro/express-formidable) An [Express](http://expressjs.com) middleware of
 [Formidable](https://github.com/felixge/node-formidable) that just works.
 
 ## What are Express, Formidable, and this?
@@ -19,14 +19,14 @@ It aims to just work.
 ## Install
 
 ```
-npm install express-formidable
+npm install middleware-formidable
 ```
 
 ## How to use
 
 ```js
 const express = require('express');
-const formidableMiddleware = require('express-formidable');
+const formidableMiddleware = require('middleware-formidablei');
 
 var app = express();
 
@@ -98,8 +98,8 @@ Unless an `error` event are provided by the `events` array parameter, it will ha
 ## Contribute
 
 ```
-git clone https://github.com/utatti/express-formidable.git
-cd express-formidable
+git clone https://github.com/ragil000/middleware-formidable
+cd middleware-formidable
 npm install
 ```
 
