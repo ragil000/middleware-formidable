@@ -1,6 +1,6 @@
 {
-  "name": "clear",
-  "version": "1.0.0",
+  "name": "middleware-formidable",
+  "version": "1.0.1",
   "description": "A Fork of express-formidable middleware",
   "main": "./lib/middleware.js",
   "directories": {
@@ -29,13 +29,5 @@
   "homepage": "https://github.com/ragil000/middleware-formidable#readme",
   "dependencies": {
     "formidable": "^2.0.1"
-  },
-  "devDependencies": {
-    "eslint": "^8.3.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.3",
-    "express": "^4.17.1",
-    "jest": "^27.0.6",
-    "request": "^2.88.2"
   }
 }

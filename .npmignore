@@ -2,6 +2,7 @@
 /.npmignore
 /.travis.yml
 /.tslintrc.json
+/.eslint
 /Makefile
 /lib.d/
 /lib/**/*.ts
@@ -9,6 +10,7 @@
 /lib/interface/
 /node_modules/
 /test/
+/.git/
 
 /.last_build
 /.last_build_all

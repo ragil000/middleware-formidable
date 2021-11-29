@@ -12,7 +12,7 @@ framework for Node.js.
 for parsing form data, including `multipart/form-data` file upload.
 
 So, **`express-formidable`** is something like a bridge between them,
-specifically an Express middleware implementation of Formidable.
+specifically an Express middleware implementation of Formidable. And **`middleware-formidable`** is an improved version of it.
 
 It aims to just work.
 
@@ -26,7 +26,7 @@ npm install middleware-formidable
 
 ```js
 const express = require('express');
-const formidableMiddleware = require('middleware-formidablei');
+const formidableMiddleware = require('middleware-formidable');
 
 var app = express();
 
