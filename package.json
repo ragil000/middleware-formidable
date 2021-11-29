@@ -1,0 +1,42 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "A Fork of express-formidable middleware",
+  "main": "./lib/middleware.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "eslint --fix . && jest test/middleware.test.js --forceExit",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ragil000/middleware-formidable.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "formidable",
+    "middleware-formidable"
+  ],
+  "author": "ragil000",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ragil000/middleware-formidable/issues"
+  },
+  "homepage": "https://github.com/ragil000/middleware-formidable#readme",
+  "dependencies": {
+    "formidable": "^2.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "express": "^4.17.1",
+    "jest": "^27.0.6",
+    "request": "^2.88.2"
+  }
+}
