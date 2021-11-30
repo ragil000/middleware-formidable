@@ -1,4 +1,4 @@
-# express-formidable [![Build Status](https://travis-ci.org/utatti/express-formidable.svg?branch=master)](https://travis-ci.org/utatti/express-formidable)
+# middleware-formidable
 
 This is Folk of [express-formidable](https://github.com/hatashiro/express-formidable) An [Express](http://expressjs.com) middleware of
 [Formidable](https://github.com/felixge/node-formidable) that just works.
