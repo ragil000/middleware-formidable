@@ -1,6 +1,6 @@
 {
   "name": "middleware-formidable",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Fork of express-formidable middleware",
   "main": "./lib/middleware.js",
   "directories": {
