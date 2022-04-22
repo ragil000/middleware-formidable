@@ -24,6 +24,8 @@ npm install middleware-formidable
 
 ## How to use
 
+### Basic usage
+
 ```js
 const express = require('express');
 const formidableMiddleware = require('middleware-formidable');
@@ -38,9 +40,37 @@ app.post('/upload', (req, res) => {
 });
 ```
 
-And that's it.
+### Using another way
 
-express-formidable can basically parse form types Formidable can handle,
+If you separate between controller file and route file, you can use this method.
+
+`route.js`
+
+```js
+const controller = require('[your-path]/controllerFile');
+const formidableMiddleware = require('middleware-formidable');
+
+router.post('/', formidableMiddleware({multiples: true, allowEmptyFiles: true}), controller.post)
+```
+
+`controller.js`
+
+```js
+const post = async (request, response, next) => {
+  const bodyData = request.fields; // contains non-file fields
+  const files = request.files; // contains files
+  
+  // if your file field name is "image", you can use
+  const myImages = files.image;
+  
+  // and if your file field name is "another_file", you can use
+  const myAnotherFile = files.another_file;
+};
+```
+
+middleware-formidable already supports array fields and of course also supports arrays files.
+
+middleware-formidable can basically parse form types Formidable can handle,
 including `application/x-www-form-urlencoded`, `application/json`, and
 `multipart/form-data`.
 
