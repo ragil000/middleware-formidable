@@ -50,7 +50,7 @@ If you separate between controller file and route file, you can use this method.
 const controller = require('[your-path]/controllerFile');
 const formidableMiddleware = require('middleware-formidable');
 
-router.post('/', formidableMiddleware({multiples: true, allowEmptyFiles: true}), controller.post)
+router.post('/', formidableMiddleware({multiples: true, allowEmptyFiles: true}), controller.post);
 ```
 
 `controller.js`
